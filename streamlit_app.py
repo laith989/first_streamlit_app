@@ -62,13 +62,4 @@ if streamlit.button('Add a fruit to List'):
    streamlit.text(back_from_function
                  )
 
-# don't run anything past here while we troubleshoot
-streamlit.stop()
-
-streamlit.header("The fruit load list contains")
-
-
-add_my_fruit = 
-streamlit.write('Thanks for adding ', add_my_fruit)
-
 
